@@ -6,39 +6,74 @@
      <title>Blog</title>
      <!-- tailwind CSS -->
      <script src="https://cdn.tailwindcss.com"></script>
+     <!-- daisy UI CDN -->
+      
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body class="p-5 lg:p-8">
+<body class="p-5 lg:p-8 bg-white">
+
+
+     <!-- header -->
+     <header class="sticky top-0  ">
+          <nav class="z-50 backdrop-blur-lg bg-white/50">
+            <!-- before divider -->
+    
+            <div class="bg-amber-100 pt-5">
+              <div class="grid grid-cols-2 md:grid-cols-3 gap-10 justify-between max-w-screen-xl mx-auto">
+                <div class="flex justify-center">
+                  <button class="  btn btn-success text-black " onclick="window.location.href='blog.html'">Blog</button>
+                </div>
+                <div class="flex items-center justify-center gap-5">
+                  <img src="assets/logo.png" alt="" />
+                  <h2 class="text-black">Donate Bangladesh</h2>
+                </div>
+    
+                <div class="flex items-center justify-center">
+                  <img src="assets/coin.png" alt="" />
+                  <button class="btn btn-ghost text-black">5000 BDT</button>
+                </div>
+              </div>
+              <div class="divider"></div>
+            </div>
+            
+          </nav>
+        </header>
+
      <h1 class="font-bold text-2xl text-black text-center mb-5 lg:mb-10 ">Impotant FAQ</h1>
 
      <!-- questions -->
-     <div class=" flex flex-col">
-          <div >
-               <button class="btn btn-block border-2 border-black p-5">What is the Document Object Model (DOM)?</button>
-           </div>
-          <div >
-               <button class="btn btn-block border-2 border-black p-5">What is the Document Object Model (DOM)?</button>
-           </div>
-          <div >
-               <button class="btn btn-block border-2 border-black p-5">What is the Document Object Model (DOM)?</button>
-           </div>
-          <div >
-               <button class="btn btn-block border-2 border-black p-5">What is the Document Object Model (DOM)?</button>
-           </div>
-     </div>
+   <div class="m-10">
+     <div tabindex="0" class="bg-white  text-black font-bold collapse collapse-plus border-base-300 bg-base-200 border p-5">
+          <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+          <div class="collapse-content">
+            <p>You can use methods like `getElementById()`, `querySelector()`, or `getElementsByClassName()` to select DOM elements based on their ID, class, or other attributes.
+          </p>
+          </div>
+        </div>
+     <div tabindex="0" class=" bg-white  text-black font-bold collapse collapse-plus border-base-300 bg-base-200 border p-5">
+          <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+          <div class="collapse-content">
+            <p>The DOM is a programming interface that represents the structure of an HTML or XML document as a tree of objects. It allows developers to manipulate elements, attributes, and content dynamically.</p>
+          </div>
+        </div>
+     <div tabindex="0" class="bg-white  text-black font-bold collapse collapse-plus border-base-300 bg-base-200 border p-5">
+          <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+          <div class="collapse-content">
+            <p>Event delegation allows you to handle events at a parent element level, taking advantage of event bubbling. It's useful for managing events efficiently, especially when dealing with dynamic content or multiple child elements.</p>
+          </div>
+        </div>
+     <div tabindex="0" class="bg-white  text-black font-bold collapse collapse-plus border-base-300 bg-base-200 border p-5">
+          <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+          <div class="collapse-content">
+            <p>You can use methods like `setAttribute()`, `getAttribute()`, or directly modify properties like `element.style` to change attributes and CSS styles of a DOM element.</p>
+          </div>
+        </div>
+   </div>
 </body>
 </html>
 
 
 
 
-<!-- 1. **What is the Document Object Model (DOM)?**
-   - The DOM is a programming interface that represents the structure of an HTML or XML document as a tree of objects. It allows developers to manipulate elements, attributes, and content dynamically.
-
-2. **How do you select an element from the DOM?**
-   - You can use methods like `getElementById()`, `querySelector()`, or `getElementsByClassName()` to select DOM elements based on their ID, class, or other attributes.
-
-3. **What is event delegation in the context of the DOM, and why is it useful?**
-   - Event delegation allows you to handle events at a parent element level, taking advantage of event bubbling. It's useful for managing events efficiently, especially when dealing with dynamic content or multiple child elements.
-
-4. **How do you manipulate an element's attributes and styles using the DOM?**
-   - You can use methods like `setAttribute()`, `getAttribute()`, or directly modify properties like `element.style` to change attributes and CSS styles of a DOM element. -->
