@@ -39,7 +39,7 @@ const commentContainer = document.getElementById('history-content');
 
   // Create a new h1 element
   const h1 = document.createElement('h1');
-  h1.textContent = `${donationAmount}TK is donated for Flood at Noakhali ,Bnagladesh`; // Set the text for the h1 tag
+  h1.textContent = `${donationAmount}TK is donated for Flood at Noakhali ,Bangladesh`; // Set the text for the h1 tag
   
   // Add CSS styles to the h1 element (inline style)
   h1.style.color = "blue";
@@ -115,7 +115,7 @@ const commentContainer = document.getElementById('history-content');
 
   // Create a new h1 element
   const h1 = document.createElement('h1');
-  h1.textContent = `${donationAmount}TK is donated for Flood at feni ,Bnagladesh`; // Set the text for the h1 tag
+  h1.textContent = `${donationAmount}TK is donated for Flood at feni ,Bangladesh`; // Set the text for the h1 tag
   
   // Add CSS styles to the h1 element (inline style)
   h1.style.color = "blue";
@@ -186,7 +186,7 @@ const commentContainer = document.getElementById('history-content');
 
   // Create a new h1 element
   const h1 = document.createElement('h1');
-  h1.textContent = `${donationAmount}TK is donated for Quota movement,Bnagladesh`; // Set the text for the h1 tag
+  h1.textContent = `${donationAmount}TK is donated for Quota movement,Bangladesh`; // Set the text for the h1 tag
   
   // Add CSS styles to the h1 element (inline style)
   h1.style.color = "blue";
