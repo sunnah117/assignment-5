@@ -40,18 +40,16 @@
 
         <!-- two buttons after divider -->
         <div class="flex justify-center space-x-5 bg-slate-50 lg:m-10 m-5">
-          <button
-            class="btn bg-slate-50 border px-8 py-4 hover:border-none hover:bg-green-300 text-black"
-          >
+          <button id="donation-conatiner" class="btn bg-slate-50 border px-8 py-4 hover:border-none hover:bg-green-300 text-black">
             Donation
           </button>
-          <button class="btn bg-slate-50 hover:bg-green-300 px-10 text-black">
+          <button id="history-container" class="btn bg-slate-50 hover:bg-green-300 px-10 text-black">
             History
           </button>
         </div>
       </nav>
     </header>
-    <main class="pb-4 lg:pb-14">
+    <main id="donate-main" class="pb-4 lg:pb-14">
       <!-- cards -->
       <div class="grid grid-cols-1 md:grid-cols-2 p-4 gap-10">
         <!-- image -->
@@ -172,7 +170,13 @@
 </dialog>
 </div>
 
+<!-- history -->
+
+
     </main>
+    <div id="history-content">
+
+    </div>
 
     <script src="js/utilities.js"></script>
     <script src="js/features.js"></script>
